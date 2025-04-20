@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UMADEB Suzano</title>
+  <link rel="icon" href="fotos/ADBelém.png">
+
+  <style>
+    body {
+      background-color: black;
+      margin: 0;
+      padding: 0;
+    }
+
+    a {
+      color: white;
+      text-decoration: none;
+      font-size: 20px;
+      font-weight: bold;
+      font-family: 'Courier New', Courier, monospace;
+      transition: all 0.3s ease-in-out;
+    }
+
+    a:hover {
+      color: gray;
+      text-decoration: underline;
+      font-size: 30px;
+    }
+
+    header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background-color: none;
+      z-index: 1000;
+      box-shadow: none;
+    }
+
+    .header-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 20px;
+    }
+
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 30px;
+    }
+
+    .menu {
+      font-family: 'Gill Sans', Courier, monospace;
+      font-size: 25px;
+    }
+
+    /* ÍCONES */
+    .left-icon img,
+    .right-icon img {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      transition: all 0.4s ease;
+    }
+
+    /* Animação nos ícones ao passar o mouse */
+    .left-icon img:hover,
+    .right-icon img:hover {
+      transform: scale(1.2); /* cresce 20% */
+      box-shadow: 0 0 15px white; /* efeito de brilho */
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <div class="header-container">
+      
+      <!-- Ícone na esquerda levando para o Instagram -->
+      <div class="left-icon">
+        <a href="instagram.com/umadebsp.suzano/" target="_blank" title="Ir para o Instagram">
+          <img src="fotos/FOGO.png" alt="Instagram UMADEB">
+        </a>
+      </div>
+
+      <!-- Menu centralizado -->
+      <nav>
+        <ul>
+          <li class="menu"><a href="Testes!!.html">Home</a></li>
+          <li class="menu"><a href="Testes.html">Sobre Nós</a></li>
+          <li class="menu"><a href="Testes.html">Contato</a></li>
+        </ul>
+      </nav>
+
+      <!-- Ícone na direita normal -->
+      <div class="right-icon">
+        <img src="fotos/ADBelém.png" alt="Ícone Direita">
+      </div>
+
+    </div>
+  </header>
+
+</body>
+</html>
